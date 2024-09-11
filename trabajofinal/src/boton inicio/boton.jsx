@@ -1,4 +1,5 @@
-export function botoninicio()
+
+export function Botoninicio()
     {
         
     return( 
