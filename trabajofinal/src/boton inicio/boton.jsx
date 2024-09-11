@@ -1,11 +1,11 @@
-
-export function Botoninicio()
+import './styles.css'
+function Botoninicio()
     {
         
     return( 
     
     <>
-<button className="jojo"> COMO?</button>
+<button> COMO?</button>
     </>)
-
     }
+    export default Button
