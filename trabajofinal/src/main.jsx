@@ -7,6 +7,6 @@ import { Botoninicio } from './boton inicio/boton.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-<Botoninicio/>
+ <Botoninicio/>
   </StrictMode>,
 )

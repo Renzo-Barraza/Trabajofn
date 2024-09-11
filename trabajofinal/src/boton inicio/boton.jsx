@@ -1,11 +1,11 @@
-import './styles.css'
-function Botoninicio()
+import './claser.css'
+export function Botoninicio()
     {
         
     return( 
     
     <>
-<button> COMO?</button>
+<button className='jojo' > COMO?</button>
     </>)
     }
-    export default Button
+  

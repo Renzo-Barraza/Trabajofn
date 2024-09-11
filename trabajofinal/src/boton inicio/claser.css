@@ -6,11 +6,12 @@ ul{list-style: none;}
 .jojo{
   height: 100vh;
   width: 100%;
-  font: 200px;
-    /* animation:mario 2s infinite */
+  font-size:  400px;
+    animation:mario 4s  forwards 
+  ; animation-iteration-count: 1;
+   
 }
-/* @keyframes mario { 
+ @keyframes mario { 
 0% {z-index: 100;background-color: black;}
-100% {z-index: 0;opacity: calc(0.1);}
-} */
- 
+100% {z-index: 0;opacity: calc(0.0);}
+}
