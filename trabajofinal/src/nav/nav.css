@@ -1,16 +1,24 @@
-nav{overflow: hidden;
+.navR{overflow: hidden;
     width: 100%;height: 50px;
     background-color:black; 
     position: fixed ;padding-top:
-     14px; z-index: 5;
-      animation: yoidolo 3s infinite;
-      animation-delay: 8s}
-ul{display: flex;padding-left: 700px;}
-li {margin-left: 40px;}
-a{color: wheat;}
+     14px; z-index: 4;
+
+
+      animation: yoidolo  infinite;
+      animation-duration:10s ;
+      animation-delay: 8s ;
+
+    }
+
+
+      
+.ulR{display: flex;padding-left: 700px;list-style: none;font-size: 30px;}
+.liR {margin-left: 40px;color: black;}
+.aR{color: wheat;text-decoration: none;}
 @keyframes juli {
     
-0%{background-color: aqua;padding-left: 0px;}
+0%{background-color: rgb(22, 74, 74);padding-left: 0px;}
 
 35%{background-color: rgb(7, 158, 158);padding-left: 500px;}
 
@@ -34,7 +42,7 @@ a{color: wheat;}
     100%{box-shadow: -10px 32px 50px 0px  royalblue ;z-index: 4;  }
 
 }
-ul{list-style: none;font-size: 30px;}
-li{color: black;}
-a{text-decoration: none;}
+
+
+
 .linea{padding-top: 50px;height: 30px;width: 30px;background-color: blue;z-index: 3;position: fixed;animation: juli 6s forwards;animation-iteration-count: 1;animation-delay: 2s;}

@@ -3,12 +3,14 @@
 .jojo{background-color: aqua;
   height: 100vh;
   width: 100%;
-  font-size:  400px;
-    animation:mario 3s  forwards 
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario 8s  forwards 
   ; animation-iteration-count: 1;
    
 }
  @keyframes mario { 
-0% {z-index: 100;background-color: black;}
-100% {z-index: 100;opacity: calc(0.0);}
-}
+0% {z-index: 1000;background-color: black;}
+25%{margin: 0 ; margin-left: 500px;}
+50%{height: 500px; width: 500px;;margin-top: 500px;}
+100% {z-index: 0;opacity: calc();height: 500px; width: 500px;margin-left: 0;margin-top: 500px;}}
+
