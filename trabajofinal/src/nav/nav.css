@@ -1,4 +1,10 @@
-nav{overflow: hidden;width: 100%;height: 50px;background-color:black; position: fixed ;padding-top: 14px; z-index: 5; animation: yoidolo 3s infinite;animation-delay: 8s}
+nav{overflow: hidden;
+    width: 100%;height: 50px;
+    background-color:black; 
+    position: fixed ;padding-top:
+     14px; z-index: 5;
+      animation: yoidolo 3s infinite;
+      animation-delay: 8s}
 ul{display: flex;padding-left: 700px;}
 li {margin-left: 40px;}
 a{color: wheat;}
