@@ -1,16 +1,58 @@
 *{margin: 0px;}
+.sec2{background-color:steelblue;height: 100vh;width: 100%;}
 
-.jojo{background-color: aqua;
-  height: 100vh;
-  width: 100%;
+.jojo{background-image: url(..//assets/fototp.png);background-size: cover;
+  height: 400px; width: 400px;
   font-size:  100px;text-align: center;justify-content: center;align-items: center;
-    animation:mario 8s  forwards 
+    animation:mario 5s  forwards 
   ; animation-iteration-count: 1;
-   
+   position: relative; top: 300px;left: 700px;
+   z-index: 1
+}
+
+.jojo2{background-image: url(..//assets/fototp.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario2 8s  forwards 
+  ; animation-iteration-count: 1;
+  position: relative; top: 300px;left: 300px;
+  z-index: 2
+}
+
+.jojo3{background-image: url(..//assets/fototp.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario3 8s  forwards 
+  ; animation-iteration-count: 1;
+  position: relative; top: 300px;left: -100px;
+  z-index: 3
+}
+
+.jojo4{background-image: url(..//assets/fototp.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario4 8s  forwards 
+  ; animation-iteration-count: 1;position: relative; top: 300px;left: -500px;
+  z-index: 4;
+ 
 }
  @keyframes mario { 
-0% {z-index: 1000;background-color: black;}
-25%{margin: 0 ; margin-left: 500px;}
-50%{height: 500px; width: 500px;;margin-top: 500px;}
-100% {z-index: 0;opacity: calc();height: 500px; width: 500px;margin-left: 0;margin-top: 400px;}}
-
+0% { position: relative; top: 300px;left: 700px}
+25%{ position: relative; top: 400px;left: 900px}
+50%{ position: relative; top: 250px;left: 300px}
+100% { position: relative; top: 100px;left: 50px ; box-shadow: 1px 20px 40px white;}}
+@keyframes mario2 { 
+  0% { position: relative; top: 300px;left: 300px}
+  25%{ position: relative; top: 400px;left: 900px}
+  50%{ position: relative; top: 250px;left: 300px}
+  100% { position: relative; top: 100px;left: 1080px; box-shadow: 1px 20px 40px white;}}
+  @keyframes mario3 { 
+    0% { position: relative; top: 400px;left: 100px}
+    25%{ position: relative; top: 500px;left: 500px}
+    50%{ position: relative; top: 550px;left: 700px}
+    100% { position: relative; top: 550px;left: -750px; box-shadow: 1px 20px 40px white;}}
+    @keyframes mario4 { 
+      0% { position: relative; top: 400px;left: 350px}
+      25%{ position: relative; top: 100px;left: 300px}
+      50%{ position: relative; top: 350px;left: -860px}
+      100% { position: relative; top: 550px;left: 280px; box-shadow: 1px 20px 40px white;}}

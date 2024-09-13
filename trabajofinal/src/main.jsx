@@ -7,9 +7,18 @@ import './nav/nav.css'
 import { Nav2 } from './nav/nav.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-<Nav2/>
-            <Linea/>
-            <Botoninicio/>
+
+    <Sectionfan/>
+      
+
           
   </StrictMode>
 )
+function Sectionfan(){
+  return ( <section className='sec2'> 
+     <Nav2/>
+            <Linea/>
+            <Botoninicio/>
+            
+            </section>)
+}
