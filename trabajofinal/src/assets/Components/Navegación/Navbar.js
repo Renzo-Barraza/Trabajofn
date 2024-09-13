@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import {Descuentos} from "Descuentos.js"
+import {Home} from "Home.js"
 
 <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
