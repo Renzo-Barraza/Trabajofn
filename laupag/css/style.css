@@ -1,0 +1,70 @@
+
+*{margin: 0;
+padding: 0;}
+
+.contenedor{
+    position: absolute;
+}
+
+.muv{
+    animation: mover 2s;
+}
+
+@keyframes mover{
+from{
+    transform: translateX(-1000)
+}
+to{
+    transform: translateX(0);
+}
+}
+
+nav{
+    color:black
+}
+.bg-gray{
+    background: #8E0E00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #190A05, #b40000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #190A05,#b40000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to right, #413a37, #2c2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.box{  
+    background-image: url(../img/The\ Strain.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+ }
+
+.box2{
+    background-color: #190A05;
+}
+
+.box3{
+background-color: #413a37;
+}
+
+.box4{
+    background-color: #2c2424;
+}
+
+#Messi{ color: #b40000;}
+.pf{
+    position: fixed;
+}
+
+.lalo{
+    transform: translate(550px, 0px)
+}
+
+.lelo{
+    transform: translate(500px, 0px)
+}
+
+.Lmao{
+    color: antiquewhite;
+}
+
+h1, h2, h3{
+    color: gray;
+}

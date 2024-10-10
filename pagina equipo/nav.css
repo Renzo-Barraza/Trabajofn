@@ -12,11 +12,11 @@
     }
 
 
-      
+      p{text-align: center;}
 .ulR{display: flex;padding-left: 700px;list-style: none;font-size: 30px;}
 .liR {margin-left: 40px;color: black;}
 .aR{color: wheat;text-decoration: none;}
-@keyframes juli {
+@keyframes juli2 {
     
 0%{background-color: rgb(22, 74, 74);padding-left: 0px;}
 
@@ -45,7 +45,7 @@
 
 
 
-.linea{padding-top: 50px;height: 30px;width: 0px;background-color:rgb(200, 0, 255);z-index: 3;position: fixed;animation: juli 6s forwards;animation-iteration-count: 1;animation-delay: 2s;}
+.linea{padding-top: 50px;height: 30px;width: 0px;background-color:rgb(200, 0, 255);z-index: 3;position: fixed;animation: juli2 6s forwards;animation-iteration-count: 1;animation-delay: 2s;}
 
 
 *{margin: 0px;}
@@ -119,3 +119,6 @@
         25%{ position: relative; top: 300px;left: 100px}
         50%{ position: relative; top: 350px;left: -660px}
         100% { position: relative; top: -150px;left: 750px; box-shadow: 1px 20px 40px white;}}
+        .i2{display: none;}
+        @media(max-width:500px)
+        {.i2{display: block;}.i{display: none;}}
