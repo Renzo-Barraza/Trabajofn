@@ -1,0 +1,347 @@
+body * {
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.nav1 {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  ;z-index: 5;
+  display: flex;
+  box-shadow: 19px 21px 20px 7px rgba(27, 6, 51, 1);
+
+  animation: nav 2s reverse;
+}
+
+ul {
+  display: flex;
+  padding-left: 1250px;
+}
+
+li {
+  list-style: none;
+  width: 140px;
+  padding-top: 20px;
+  animation: nav 3s reverse;
+}
+
+.sec1 {
+  background-image: url(../imagenes/fondo12.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  animation: nav 1s reverse;
+  ;overflow: hidden;
+}
+
+
+
+.ic {
+  border-radius: 20px;
+  height: 35px;
+  width: 55px;
+margin-left: 10px;
+margin-top: 15px;
+}
+
+a {
+  color: rgb(150, 0, 127);
+  margin-left: 20px;
+  font-size: 25px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  transition: calc(0.9s);
+  text-shadow: 0px 1px 1px;
+  color: blueviolet; 
+  background-color: white; 
+  border-radius: 10px;
+}
+
+.sec1 {
+  position: relative;
+}
+
+.messi {
+  position: absolute;
+  top: 250px;
+  left: 1000px;
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 19px 21px 20px 7px rgba(27, 6, 51, 1);
+  z-index: 3;
+  animation: nav 2s reverse;
+}
+
+.dive {
+  position: relative;
+  top: 250px;
+  left: 1000px;
+
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.fasfa {
+  position: absolute;
+  top: -130px;
+  left: 200px;
+
+  width: 200px;
+  height: 800px;
+  animation: rotate 2s infinite reverse;
+  z-index: 2;
+  background-color: rgb(0, 0, 0);
+}
+
+
+.tr{width: 1220px;margin-top: 0%;}
+.jojo {
+  color: white;
+  font-size: 50px;
+
+  width: 700px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.tablah {
+  color: white;
+  font-size: 50px;
+  padding-left: 150px;
+  animation: nav 3s reverse;
+}
+.letra{font-size: 32px;}
+td h1:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+ td .jaja:hover{border-radius: 20px; }
+ .trabajos {
+  background-image: url(../imagenes/trabajo.png);
+  width: 100%;
+  height: 200vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+background-position: center;
+ }
+
+ .trabajos2 {
+  background-image: url(../imagenes/trabajo.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+ }
+
+.iframes {
+  height: 600px;
+  width: 700px;
+  background-color: white;
+  margin-bottom: 20px;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+
+
+.abajo {
+  background-image: url(../imagenes/ajsdjajsd.jpeg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgs {
+  height: 50px;
+  width: 50px;
+  position: relative;
+
+  top: -30px;
+}
+
+footer {
+  background-color: black;
+  height: 953px;
+  width: 100%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotofooter {
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+  ; animation:nav  4s reverse ; 
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+
+
+
+
+.cete {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+h1:hover {
+  background-color: purple; transition: calc(0.9s);
+  text-shadow: 1px 1px 1px black;
+}
+
+.Presentacion {
+  background-image: url(../imagenes/presentacion2.png);
+  height:300px;
+  width: 700px;
+color: white;
+text-shadow: 1px 1px 1px black;
+border-radius: 20px;
+position: relative;
+left: 1100px;top: -400px;
+text-align: center;
+box-shadow: -42px 33px 14px 5px rgba(8,37,69,1);
+animation:nav  4s reverse ;
+
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+.imggu {
+  width: 100%;
+  height: 800px;
+  margin-top: 150px;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+.parrafos {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  animation:nav  4s reverse ; 
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+.fondotabla2 {
+  margin-left: 515px;
+  width: 900px;
+  height: 500px;
+  background-image: url(../imagenes/fondo2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  animation:nav  3s reverse ; 
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+
+.jiji {
+  margin-left: 30px;
+}
+.pre1{width: 900px;height: 500px; overflow: hidden;border-radius: 20px;box-shadow: 18px 19px 5px 15px rgba(8,37,69,1) ;animation:nav  4s reverse ; 
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+.inpre{margin-top: -20px;position: relative;top: -215px; ; left: 1100px;
+  background-color: rgb(255, 255, 255);
+height: 20px; width: 700px; margin-bottom: 20px;
+border-radius: 20px; z-index: 1;margin-bottom: 40px; overflow: hidden;}
+.inpri{display: block;}
+.inpra1{
+  background-color: rgb(255, 0, 0); width: 0%;
+z-index: 2; border-radius: 20px;
+
+animation: barra1 7s forwards;}
+.inpra2{
+  background-color: rgb(255, 0, 0); width: 0%;
+z-index: 2; border-radius: 20px;
+
+animation: barra2 7s forwards;}
+.inpra3{
+  background-color: rgb(255, 0, 0); width: 0%;
+z-index: 2; border-radius: 20px;
+
+animation: barra3 7s forwards;}
+
+
+ .boton{background-color: rgb(255, 0, 106); border-radius: 5px; animation: bo 5s infinite;position: relative;top: -2px;color: white;}
+
+ .tablasc{display: block;  height: 130px; width: 130px;text-align: center;position: relative;top: -115px;left: 950px;background-color: purple; border-radius: 10px;}
+ .htmlanunciado{color: white;font-size: 25px; border-radius: 10px;}
+ .cssanunciado{ color: white;font-size: 25px;position: relative;top: -20px; }
+.javascriptanunciado{color:white;font-size: 25px;position: relative;top: -40px; border-radius: 10px;}
+
+
+.htmlanunciado:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+.cssanunciado:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+.javascriptanunciado:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+.conocer{ width: 20%;text-align: center;position: relative;top: -200px;left: 1200px;color: white;border-radius: 20px; ;}
+.ow{border-radius: 20px;}

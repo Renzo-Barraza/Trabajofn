@@ -1,0 +1,30 @@
+
+title{color:rgb(255, 255, 255);}
+body{background-image:url(./imagenes/universo\ 2.gif);
+background-position: unset;
+background-size: cover;
+}
+h1{color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(0, 247, 255);
+    font-size:300%;
+}
+h2{color: rgb(255, 255, 255);
+text-shadow: 2px 1px 1px rgb(0, 247, 255);
+font-size:300%;}
+p{color:rgb(255, 255, 255);
+text-shadow: 1px 1px 1px rgb(0, 247, 255);
+font-size:100%;
+}
+span{color: rgb(255, 255, 255); 
+    text-shadow: 2px 1px 1px rgb(0, 247, 255)}
+
+ul li{color:rgb(255, 255, 255);
+text-shadow: 2px 1px 1px rgb(0, 247, 255);
+border: solid 2px black;
+font-size:150%;
+margin:auto;
+margin-top:10px;
+text-align: center;
+width:50%;
+
+}
