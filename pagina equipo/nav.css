@@ -16,6 +16,8 @@
 .ulR{display: flex;padding-left: 700px;list-style: none;font-size: 30px;}
 .liR {margin-left: 40px;color: black;}
 .aR{color: wheat;text-decoration: none;}
+.nene{font-size: 500px; opacity: calc(0.1)}
+button{overflow: hidden;}
 @keyframes juli2 {
     
 0%{background-color: rgb(22, 74, 74);padding-left: 0px;}
