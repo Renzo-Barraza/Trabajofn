@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>Soporte Técnico</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Zara_Logo.svg" alt="Logo Zara" class="logo">
+            </div>
+        </header>
+        <!-- Cambiamos la URL del action a la proporcionada por Formspree -->
+        <form id="supportForm" class="support-form" action="https://formspree.io/f/mqakzrqv" method="POST">
+            <!-- Cambia el action por el ID de tu formulario Formspree -->
+            <div class="form-left">
+                <div class="input-group">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Gmail</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+            </div>
+            <div class="form-right">
+                <div class="input-group">
+                    <label for="problema">Problema</label>
+                    <textarea id="problema" name="problema" rows="10" required></textarea>
+                </div>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="message"></div>
+    </div>
+</body>
+</html>
