@@ -41,8 +41,8 @@ export {BotonT}
 document.getElementById('Talles').addEventListener('click', BotonT)
 
 // Filtrado de productos -------------------------
-let colorSeleccionado = '';
-let talleSeleccionado = '';
+const colorSeleccionado = '';
+const talleSeleccionado = '';
 
 document.querySelectorAll('.divopciones .opciones').forEach(opcion => {
     opcion.addEventListener('click', (event) => {
@@ -80,25 +80,26 @@ function filtrar() {
 // Funcion del Carrito ---------------------------
 
 function actualizarCarrito() {
+    console.log('actualizado')
     const contenidoCarrito = document.getElementById("contenidoCarrito");
     contenidoCarrito.innerHTML = ''; 
 
-    let memoria = JSON.parse(localStorage.getItem('carrito')) || [];
+    const memoria = JSON.parse(localStorage.getItem('carrito')) || [];
     memoria.forEach(producto => {
         const divProducto = document.createElement('div');
         divProducto.innerHTML = 
-        `${producto.producto} - Cantidad: ${producto.cantidad}
+        `${producto.producto} - cantidad: ${producto.cantidad}
         <button onclick="eliminar('${producto.id}')"> Eliminar </button>`;
         contenidoCarrito.appendChild(divProducto);
     });
 }
 
 function agregarCarrito(producto) {
-    let memoria = JSON.parse(localStorage.getItem('carrito')) || [];
+    const memoria = JSON.parse(localStorage.getItem('carrito')) || [];
     const indiceProducto = memoria.findIndex(item => item.id === producto.id);
 
     if (indiceProducto === -1) {
-        producto.cantidad = 1; 
+       producto.cantidad = 1; 
         memoria.push(producto);
     } else {
         memoria[indiceProducto].cantidad += 1;
@@ -112,16 +113,30 @@ function mostrarCarrito() {
     carritoDiv.style.display = carritoDiv.style.display === 'none' ? 'block' : 'none';
     actualizarCarrito(); 
 }
-document.getElementById('Agregar').addEventListener('click', ()=>{
-    const producto = {id: productoS.id, producto: productoS.producto, precio: productoS.precio};
+const agregar = document.getElementById('Agregar');
+if (agregar) {
+    agregar.addEventListener('click', ()=>{
+        const producto = {id: productoS.id, producto: productoS.producto, precio: productoS.precio};
     agregarCarrito(producto)
-})
+    })   
+}
+document.getElementById('carrito').addEventListener('click', mostrarCarrito);
 
 function eliminar(id){
-    let memoria = JSON.parse(localStorage.getItem('carrito')) || [];
-    const nuevoCarro = memoria.filter(producto => producto.id !== id);
-    localStorage.setItem('carrito', JSON.stringify(nuevoCarro))
-    actualizarCarrito();
-}
+    console.log('eliminado')
+    const memoria = JSON.parse(localStorage.getItem('carrito')) || [];
+    const indiceProducto = memoria.findIndex(producto => productoS.id !== id);
+
+    if(indiceProducto !== -1){
+        if(memoria[indiceProducto].cantidad > 1){
+            memoria[indiceProducto].cantidad -=1;
+        } else{
+            memoria.splice(indiceProducto, 1);
+        }
+        }
+          localStorage.setItem('carrito', JSON.stringify(memoria));
+          actualizarCarrito();
+    }
+  
 window.eliminar = eliminar;
 window.mostrarCarrito = mostrarCarrito
