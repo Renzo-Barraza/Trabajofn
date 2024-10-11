@@ -1,0 +1,33 @@
+body{
+  justify-content: center;
+  align-items: center;
+  background: #20002c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  ;
+}
+navbar-brand{
+  color: blueviolet;
+}
+iframe{
+  height: 200%;
+  width: 80%;
+}
+
+.card{
+  width: 200px;
+  height: 2000px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+footer{
+  background-color: aliceblue;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none
+}
+
+.bi{
+  color: #20002c;
+  text-decoration: none;
+}

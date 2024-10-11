@@ -1,0 +1,132 @@
+section{
+    background-color: #e9e2c6;
+    height: 90vh;
+}
+
+header{
+    background-color: #bdb184;
+    height: 10vh;
+    text-align: center;
+}
+
+h1, h4, p{
+    text-align: center;
+}
+
+#info{
+    width: 40vw;
+    height: 50vh;
+    padding: 30px;
+    background-color: beige;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+#yo{
+    position: relative;
+    top: 100px;
+}
+
+#trabajos{
+    width: 99vw;
+    height: 40vh;
+    padding: 30px;
+    background-color: beige;
+}
+
+.tps{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+iframe{
+    width: 15vw;
+    height: 20vh;
+    display: grid;
+    margin-left: 5rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#skills{
+    width: 40vw;
+    height: 50vh;
+    padding: 30px;
+    text-align: center;
+    background-color: beige;
+    position: absolute;
+    width: 100%;
+}
+
+.font {
+  color: #3e7c3e;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+footer{
+    text-decoration: #285528;
+    background-color: #bdb184;
+    height: 20vh;
+}
+
+nav{
+    position: fixed;
+    background-color: #bdb184;
+    width: 100%;
+    text-decoration-color: black;
+    z-index: 10;
+}
+
+button{
+    text-decoration: none;
+    width: 10vw;
+    height: 5vh;
+    display: inline-block;
+    background-color: beige;
+}
+
+button:hover{
+    background-color: wheat;
+}
+
+#s1 img{
+    width: 35rem;
+    height: 35rem;
+    position: relative;
+    left: 65rem;
+}
+
+#s3 img{
+    width: 30rem;
+    height: 100%;
+    display: inline-block;
+    width: 20vw;
+    height: auto;
+    margin-left: 10px;
+}
+.skills{
+    margin-bottom: 15px;
+    display: inline-flex;
+    align-items: flex-start;
+    background-color: #3e7c3e;
+    width: 20vw;
+    list-style-type: none;
+}
+
+#pic2{
+    position: relative;
+    right: 15rem;
+    bottom: 18rem;
+    margin: 0 20px;
+}
+
+#pic3{
+    position: relative;
+    left: 15rem;
+    bottom: 18rem;
+    margin: 0 20px;
+}
