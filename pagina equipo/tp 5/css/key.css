@@ -1,0 +1,12 @@
+@keyframes nav {100%{opacity: 0 ; scale:0;}
+    
+  }
+  
+@keyframes rotate {0%{transform: rotate(0deg);}100%{transform: rotate(360deg);}}
+@keyframes show { from{ opacity:0; scale:25%;}
+to{opacity:1;scale:100%;}}
+@keyframes barra1{0%{width: 0%;} 100%{width: 90%;}}
+
+
+@keyframes barra2 {0%{width: 0%;} 100%{width: 80%;}}
+@keyframes barra3{0%{width: 0%;} 100%{width: 10%;}}

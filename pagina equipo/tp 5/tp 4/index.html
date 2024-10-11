@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paciencia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <nav>
+        <ul>
+            <li><a href="#comienzo">Comienzo</a></li>
+            <li><a href="#formulario">formulario</a></li>
+            <li><a href="#imagenes">imagenes</a></li>
+            <li><a href="#final">Final</a></li>
+         
+        </ul>
+    </nav>
+
+    <section id="comienzo">
+    <video   autoplay muted loop>
+        <source src="./video/minec.mp4">
+        <source src="./video/minec2.webm" >
+    </video>
+</section>  
+
+<section class="form1" id="formulario" >
+    <form action="https://formspree.io/f/meqyyndz" method="post">
+    <label class="ani"   name="animal" for="animal" > 
+        ¿Que animal serias?
+    </label>
+          <br>
+            <input type="text" name="animal" required>
+            <br>
+       <div id="imagenes">
+         <img src="./img/caballo.jpg">
+        <img src="./img/cangrejo.jpg">
+        <br>
+        <img src="./img/capi.jpg">
+         <img src="./img/cerdo.jpg">
+      
+    </section>
+        <div class="form1 ani">
+        
+<input type="password" name="contraseña" placeholder="contraseña" required>
+
+<input type="email" name="gmail" placeholder="gmail" required>
+        </div>
+        <div class="form1 ani">
+          
+            <label>El creador de esta pagina, es el mas lindo?</label><br>
+ <dropdowns>
+<select name="elmaslindo" required>
+    <option disabled>Elige con cuidado</option>
+    <option value="opcion2">si</option>               
+    <option value="opcion3">obvio</option> 
+    <option value="opcion4">Sin dudarlo , si</option>
+    <option value="opcion5">el mas lindo</option>
+    </select>
+<div  class="form1 ani" > 
+    <label for="pelonegro , rubia">A cual prefieres?</label><br>
+
+    <input type="radio" name="pelonegro"><img src="./img/pelonegro.jpeg" >
+    <input type="radio" name="rubia"><img src="./img/rubia.jpeg">
+  
+</div>
+<div>
+    <label>Cuantos minutos de recreos te gustaria?</label>
+    <br>
+<input type="number" min="15" max="20000000000" name="recreo" required></div><br>
+<section id="final">
+<input type="submit">
+   
+
+ </dropdowns>
+      
+    </form>
+</div>
+<footer class="form1 ani">
+
+    <p>Creado por Renzo  <br>
+HECHO CON MUCHO CARIÑO</p>
+    <audio autoplay loop ><source src="./audio/Minecraftaud.mp3">
+    </audio> 
+
+</footer>
+
+
+</body>
+</html> 

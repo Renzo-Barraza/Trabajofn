@@ -1,0 +1,126 @@
+.navR{overflow: hidden;
+    width: 100%;height: 50px;
+    background-color:black; 
+    position: fixed ;padding-top:
+     14px; z-index: 4;
+
+
+      animation: yoidolo  infinite;
+      animation-duration:10s ;
+      animation-delay: 8s ;
+
+    }
+
+
+      p{text-align: center;}
+.ulR{display: flex;padding-left: 700px;list-style: none;font-size: 30px;}
+.liR {margin-left: 40px;color: black;}
+.aR{color: wheat;text-decoration: none;}
+.nene{font-size: 500px; opacity: calc(0.1)}
+button{overflow: hidden;}
+@keyframes juli2 {
+    
+0%{background-color: rgb(22, 74, 74);padding-left: 0px;}
+
+35%{background-color: rgb(7, 158, 158);padding-left: 500px;}
+
+75%{background-color: rgb(1, 104, 104);padding-left: 1000px;}
+
+80%{background-color: rgb(1, 58, 58);padding-left: 2000px;}
+90%{background-color: rgb(0, 0, 0);}
+100%{background-color:rgb(165, 70, 180);}
+
+
+}
+@keyframes yoidolo{
+
+    0%{box-shadow:   -10px 32px 50px 0px  violet ;z-index: 4;}
+  
+    35%{box-shadow: -10px 32px 50px 0px  blue ;z-index: 4; }
+    
+    75%{box-shadow:  -10px 32px 50px 0px  purple ;z-index: 4;}
+     
+    80%{box-shadow:  -10px 32px 50px 0px   red ;z-index: 4;}
+    100%{box-shadow: -10px 32px 50px 0px  rgb(101, 107, 124) ;z-index: 4;  }
+
+}
+
+
+
+.linea{padding-top: 50px;height: 30px;width: 0px;background-color:rgb(200, 0, 255);z-index: 3;position: fixed;animation: juli2 6s forwards;animation-iteration-count: 1;animation-delay: 2s;}
+
+
+*{margin: 0px;}
+.sec2{background-image: url(./fotos/fondo.jpg);height: 100vh;width: 100%;}
+
+.jojo{background-image: url(./fotos/3.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario 5s  forwards 
+  ; animation-iteration-count: 1;
+   position: relative; top: 300px;left: 700px;
+   z-index: 1
+}
+
+.jojo2{background-image: url(./fotos/2.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario2 8s  forwards 
+  ; animation-iteration-count: 1;
+  position: relative; top: 300px;left: 300px;
+  z-index: 2
+}
+
+.jojo3{background-image: url(../assets/.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario3 8s  forwards 
+  ; animation-iteration-count: 1;
+  position: relative; top: 300px;left: -100px;
+  z-index: 3
+}
+
+.jojo4{background-image: url(./fotos/1.png);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario4 8s  forwards 
+  ; animation-iteration-count: 1;position: relative; top: 300px;left: -500px;
+  z-index: 4;
+ 
+}
+.jojo5{background-image: url(./fotos/lide.jpg.crdownload);background-size: cover;
+  height: 400px; width: 400px;
+  font-size:  100px;text-align: center;justify-content: center;align-items: center;
+    animation:mario5 5s  forwards 
+  ; animation-iteration-count: 1;
+   position: relative; top: 500px;left: 1500px;background-position: center;
+   z-index: 5
+}
+ @keyframes mario { 
+0% { position: relative; top: 300px;left: 700px}
+25%{ position: relative; top: 400px;left: 900px}
+50%{ position: relative; top: 250px;left: 300px}
+100% { position: relative; top: 100px;left: 50px ; box-shadow: 1px 20px 40px white;}}
+@keyframes mario2 { 
+  0% { position: relative; top: 300px;left: 300px}
+  25%{ position: relative; top: 400px;left: 900px}
+  50%{ position: relative; top: 250px;left: 300px}
+  100% { position: relative; top: 100px;left: 1080px; box-shadow: 1px 20px 40px white;}}
+  @keyframes mario3 { 
+    0% { position: relative; top: 400px;left: 100px}
+    25%{ position: relative; top: 500px;left: 500px}
+    50%{ position: relative; top: 550px;left: 700px}
+    100% { position: relative; top: 550px;left: -750px; box-shadow: 1px 20px 40px white;}}
+    @keyframes mario4 { 
+      0% { position: relative; top: 400px;left: 350px}
+      25%{ position: relative; top: 100px;left: 300px}
+      50%{ position: relative; top: 350px;left: -860px}
+      100% { position: relative; top: 550px;left: 280px; box-shadow: 1px 20px 40px white;}}
+      @keyframes mario5 { 
+        0% { position: relative; top: 100px;left: 350px}
+        25%{ position: relative; top: 300px;left: 100px}
+        50%{ position: relative; top: 350px;left: -660px}
+        100% { position: relative; top: -150px;left: 750px; box-shadow: 1px 20px 40px white;}}
+        .i2{display: none;}
+        @media(max-width:500px)
+        {.i2{display: block;}.i{display: none;}}

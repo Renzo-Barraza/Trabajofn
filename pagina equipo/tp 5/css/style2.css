@@ -1,0 +1,148 @@
+.i2{display: none;}
+@media(max-width:500px)
+{.i2{display: block;}.i{display: none;}}
+.nav2{background-color: black;height: 70px;width:100%;display: flex ; z-index: 4; overflow: hidden;    animation: nav 3s reverse}
+.ul2{padding-left: 10px;}
+.li2{width: 100px;}
+.a2{color: white;font-size: 20px;;}
+
+.messi2 {
+ 
+position: absolute;top: 150px;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 19px 21px 20px 7px rgb(255, 255, 255);
+  z-index: 3;
+  animation: nav 2s reverse;
+}
+.letras{text-align: center ;font-size:40px; border-radius: 20px;margin-top: 110px; margin-left: 60px;padding-left: 10px;}
+.tr2{width: 220px;}
+
+.jojo2 {
+  color: white;
+  font-size: 20px;
+
+  width: 360px;
+  text-align: center;
+  border-radius: 20px;
+}
+.iframes2 { margin-left: -5%;
+  height: 300px;
+  width: 360px;
+  background-color: white;
+  margin-bottom: 20px;
+
+}
+.cete2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  border-radius: 20px;
+}
+.cetemejorado{margin-top: 40px ; text-align: center;
+  color: white;
+  font-size: 50px;border-radius: 10px;
+}
+.fondotabla22{
+
+  width: 360px;
+  height:200px;
+  background-image: url(../imagenes/fondo2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  animation:nav  3s reverse ; 
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;
+}
+.parrafos2{text-align: center;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  animation:nav  4s reverse ; 
+  animation-timeline: --image;
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both;} 
+  
+
+  .fotofooter2 {
+    
+    height: 100px;
+    width: 90px;
+    border-radius: 20px;
+    ; animation:nav  4s reverse ; 
+    animation-timeline: --image;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+  }
+  .Presentacion2 {margin-top: 20px;
+    background-image: url(../imagenes/presentacion2.png);
+    height:400px;
+    width:360px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-radius: 20px;
+
+  text-align: center;
+  box-shadow: -5px 33px 14px 5px rgba(8,37,69,1);
+  animation:nav  4s reverse ;
+  
+    animation-timeline: --image;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-range: entry 25% cover 30%;
+    animation-fill-mode: both;
+  }
+  
+  .letra2{font-size: 25px;border-radius: 20px;}
+  .inpri2{display: block ; margin-left: 120px; margin-top: -230px;}
+  .inpre2{
+    background-color: rgb(255, 255, 255);
+  height: 20px; width: 200px; ;
+  border-radius: 20px; z-index: 1;margin-bottom: 20px; overflow: hidden;}
+  .inpra12{  margin-bottom: 15px;background-color: rgb(255, 0, 0); width: 0%;
+    z-index: 2; border-radius: 20px;animation: barra1 7s forwards;}
+
+.inpra22{  background-color: rgb(255, 0, 0); width: 0%;
+  z-index: 2; border-radius: 20px;animation: barra2 7s forwards;}
+.inpra32{  background-color: rgb(255, 0, 0); width: 0%;
+  z-index: 2; border-radius: 20px;
+  
+  animation: barra3 7s forwards;}
+
+.boton22{background-color: rgb(255, 0, 106); border-radius: 5px; animation: bo 5s infinite;position: relative;top: -2px;color: white;}
+
+.conocer2{margin-top: 60px;margin-left: 80px ;width: 200px;text-align: center;color: white;border-radius: 20px;}
+.tablasc22{height: 120px; width: 100px;overflow:hidden ;position: relative;top:-120px; text-align: center;border-radius: 10px;}
+.tablasc2{display: block;  height: 120px; width: 100px;text-align: center;background-color: purple; border-radius: 10px;margin-top:30px;
+ }
+.htmlanunciado2{color: white;font-size: 20px; }
+.cssanunciado2{ color: white;font-size: 20px;position: relative;top: -10px;}
+.javascriptanunciado2{color:white;font-size: 20px;position: relative;top: -20px;}
+
+.htmlanunciado2:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+.cssanunciado2:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+.javascriptanunciado2:hover {
+  background-color: blueviolet;
+  transition: calc(0.9s);
+  color: azure;
+}
+.ubi2{position:absolute;top: 80px;}
+.medidafooter{height: 140vh;}
+.alargar{height: 140vh; }
