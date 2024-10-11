@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Menu </title>
+    <link rel="icon" href="./img/zara logo.jpeg">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+<body>
+  <header>
+      <h1>Catálogo</h1>
+    </header>
+      <nav>
+        <button class="botones"> Home </button>
+        <button class="botones" id="Colores" onclick=""> Colores </button>
+        <button class="botones" id="Talles" onclick=""> Talles </button>
+        <button id="carrito" onclick="mostrarCarrito()">
+          <img id="carritodecompra" src="img/carro.png" alt="Carrito" />
+        </button>
+      </nav>
+      <div id="carro">
+        <div id="contenidoCarrito"></div>
+      </div>
+
+<!--- Botones de opciones"" -->
+      <div class="divopciones" id="Colors">
+          <button class="opciones" data-color="Blanco"> Blanco </button>
+          <button class="opciones" data-color="Negro"> Negro </button>
+          <button class="opciones" data-color="Amarillo"> Amarillo </button>
+          <button class="opciones" data-color="Rojo"> Rojo </button>
+          <button class="opciones" data-color="Azul"> Azul </button>
+      </div>
+      <div class="divopciones" id="Sizes">
+          <button class="opciones" data-talle="XS"> XS </button>
+          <button class="opciones" data-talle="S"> S </button>
+          <button class="opciones" data-talle="M"> M </button>
+          <button class="opciones" data-talle="L"> L </button>
+          <button class="opciones" data-talle="XL"> XL </button>
+        </div>
+
+  <!--- Cards con la ropa -->
+<section>
+  <div class="productos" id="cont-cards"></div>
+</section>
+
+      <script type="module" src="./script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
