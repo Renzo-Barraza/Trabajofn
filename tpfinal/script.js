@@ -41,8 +41,8 @@ export {BotonT}
 document.getElementById('Talles').addEventListener('click', BotonT)
 
 // Filtrado de productos -------------------------
-const colorSeleccionado = '';
-const talleSeleccionado = '';
+let colorSeleccionado = '';
+let talleSeleccionado = '';
 
 document.querySelectorAll('.divopciones .opciones').forEach(opcion => {
     opcion.addEventListener('click', (event) => {
