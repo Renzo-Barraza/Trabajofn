@@ -59,7 +59,7 @@
       z-index: 2
     }
     
-    .jojo32{background-image: url(./fotos/153b7edb55caef65b638c30c4815c0a3.webp);background-size: cover;
+    .jojo32{background-image: url(../assets/.png);background-size: cover;
       height: 100px; width: 100px;
       font-size:  10px;text-align: center;justify-content: center;align-items: center;
         animation:mario37 8s  forwards 

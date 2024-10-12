@@ -71,7 +71,7 @@ button{overflow: hidden;}
   z-index: 2
 }
 
-.jojo3{background-image: url(./fotos/153b7edb55caef65b638c30c4815c0a3.webp);background-size: cover;
+.jojo3{background-image: url(../assets/.png);background-size: cover;
   height: 400px; width: 400px;
   font-size:  100px;text-align: center;justify-content: center;align-items: center;
     animation:mario3 8s  forwards 
